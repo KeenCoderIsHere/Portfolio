@@ -207,3 +207,104 @@ div img {
   from { opacity: 0; transform: translateX(40px) scale(0.99); }
   to   { opacity: 1; transform: translateX(0) scale(1); }
 }
+
+/* ================= Responsive Design ================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .full-name {
+    font-size: 3.2rem;
+  }
+
+  .hi-name {
+    font-size: 2rem;
+  }
+
+  .hi {
+    font-size: 1.8rem;
+  }
+
+  .my-desc {
+    font-size: 0.95rem;
+    max-width: 500px;
+  }
+
+  div img {
+    width: 350px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .home-layout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hi-name {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hi {
+    font-size: 1.4rem;
+  }
+
+  .full-name {
+    font-size: 2.5rem;
+  }
+
+  .my-desc {
+    font-size: 0.9rem;
+    max-width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .view-button {
+    align-self: center;
+    font-size: 0.95rem;
+    padding: 10px 14px;
+  }
+
+  div img {
+    width: 280px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .hi-name {
+    font-size: 1.3rem;
+  }
+
+  .hi {
+    font-size: 1.1rem;
+  }
+
+  .full-name {
+    font-size: 1.8rem;
+  }
+
+  .my-desc {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .view-button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  div img {
+    width: 220px;
+  }
+}
+

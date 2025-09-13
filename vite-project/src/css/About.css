@@ -219,3 +219,106 @@ body {
   50% {transform: scale(1.05);}
   100% {transform: scale(1);}
 }
+/* ================= Responsive Design ================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .about-me-header {
+    font-size: 4.5rem;
+  }
+
+  .one-line-desc {
+    font-size: 1.2rem;
+  }
+
+  .skill-name {
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .about-me-header {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .one-line-desc {
+    font-size: 1.1rem;
+    padding: 0 15px;
+  }
+
+  .full-about-desc {
+    font-size: 0.9rem;
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .skillcard {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .skill-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill-name {
+    font-size: 1.3rem;
+  }
+
+  .skill-desc {
+    font-size: 0.85rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .about-me-header {
+    font-size: 2.2rem;
+  }
+
+  .one-line-desc {
+    font-size: 1rem;
+  }
+
+  .full-about-desc {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .skillcard {
+    margin: 10px;
+    padding: 12px;
+  }
+
+  .skill-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-name {
+    font-size: 1.1rem;
+  }
+
+  .skill-desc {
+    font-size: 0.8rem;
+  }
+}
+
