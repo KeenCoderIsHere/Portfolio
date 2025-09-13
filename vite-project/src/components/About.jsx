@@ -18,7 +18,7 @@ const About = () => {
         <div className="button-container">
           <div className='about-buttons'>  
             <Link to={"/contact"}><button className="get-in-touch">Get in Touch <FiArrowUpRight /></button></Link>
-            <Link to={"/"}><button className="download-cv">Download Resume <FiArrowUpRight /></button></Link>
+            <Link to={"/"}><button className="download-cv" onClick={() => window.open("https://docs.google.com/document/d/17_UcTe9bWfhNOBFftEQwzkwr_TFWPqozDJKrXCc5tkw/edit?usp=drive_link","_blank")}>Download Resume <FiArrowUpRight /></button></Link>
           </div>
       </div>
       </div>
